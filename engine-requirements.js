@@ -44,7 +44,7 @@ if (major < 20) {
       const shiftedLine = (shift > 0 ? " ".repeat(shift) : "") + glitched.join("");
 
       // Warna glitch acak
-      const colored = safeColor()(shiftedLine);
+      const colored = safeColor(shiftedLine);
       console.log(colored);
     });
 
