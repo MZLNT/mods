@@ -54,7 +54,7 @@
         const shiftedLine = (shift > 0 ? " ".repeat(shift) : "") + glitched.join("");
 
         // FIX: safeColor()(string)
-        console.log(safeColor()(shiftedLine));
+        console.log(safeColor(shiftedLine));
       });
 
       console.log("\n" + chalk.redBright("❌ ERROR: Node.js Version Not Supported!\n"));
