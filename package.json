@@ -53,7 +53,7 @@
         "futoin-hkdf": "^1.5.1",
         "gradient-string": "^3.0.0",
         "libphonenumber-js": "^1.10.20",
-        "libsignal": "npm:@shennmine/libsignal-node",
+        "libsignal": "latest",
         "lodash": "^4.17.21",
         "music-metadata": "^7.12.3",
         "node-cache": "^5.1.2",
@@ -111,4 +111,5 @@
         "node": ">=20.0.0"
     }
 }
+
 
